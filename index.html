@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> How to Prevent the Impacts of a Typhoon</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header" id="section1">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="storminfos.html">STORM INFOS</a></li>
+                        <li><a href="actions.html">Effects and Actions</a></li>
+                        <li><a href="#section3">EMERGENCY HOTLINES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>How to: Lessen the Impacts of a Typhoon</h1>
+                <p>A look into one of the Philippine's most destuctive calamity, the Typhoon Ondoy (Ketsana).<br> What should we do to prevent this kind of calamity? What step should the goverment take to ensure our safety?<br> Find out more about this in this website!</p>
+                <a href="#section2" class="hero-btn">Click here to know more</a>
+                <h3></h3>
+            </div>
+        </section>
+
+            <!------- course ------->
+        <section class="course" id="section2">
+            <h1>Contents of this Website</h1>
+            <p>This will serve as your guide in navigating this website</p>
+
+            <div class="row">
+                <a href="#section1">
+                    <div class="course-col">
+                    <img src="images/home.jpg">
+                    <h3>Home</h3>
+                    <p>This wil tackle about the contents of the website and a quick introduction about the topic.</p>
+                </a></div>
+                <a href="actions.html">
+                    <div class="course-col">
+                    <img src="images/action.jpg">
+                    <h3>Effects and Actions</h3>
+                    <p>What are the effects of typhoon Ondoy? What can the government and an individual do to lessen the impacts of calamities such as storm? Find out about this, here.</p>
+                </a></div>
+                <a href="#section3">
+                    <div class="course-col">
+                    <img src="images/government.jpg">
+                    <h3>EMERGENCY HOTLINES</h3>
+                    <p>Know the numbers you need to dial in case of emegencies!</p>
+                </a></div>
+                <a href="storminfos.html">
+                    <div class="course-col">
+                    <img src="images/science.jpeg">
+                    <h3>Storm Infos</h3>
+                    <p>This is about the scientific explanation of a typhoon, its origin, and the relation of the Philippines geographical location to the formation of Storms.</p>
+                </a></div>
+                <a href="about.html">
+                    <div class="course-col">
+                    <img src="images/logo.jpg">
+                    <h3>About</h3>
+                    <p>Know more about the Authors and Contributors of this website, here!</p>
+                </div></a>>
+            </div>
+            <div id="section3">
+                <img class="imgemergency" src="images/emergency2.jpg">
+            </div>
+            <br>
+        </section>
+
+
+        <!-------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+        <section class="footer">
+            <h3>© 2022 All Rights Reserved</h3>
+        </section>
+    </body>
+</html>
