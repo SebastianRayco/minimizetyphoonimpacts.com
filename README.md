@@ -1,0 +1,1 @@
+# minimizetyphoonimpacts.com
